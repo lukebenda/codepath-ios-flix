@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		AB947B4A0E69F6A281A92024 /* Pods_flixster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADE63A52F4332173E061B78 /* Pods_flixster.framework */; };
 		B171CADD8519FC46763DDD13 /* Pods_flixster_flixsterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4BD82F66141AFDEA04357C /* Pods_flixster_flixsterUITests.framework */; };
+		C8165E8E28D8CBBE008763B0 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8165E8D28D8CBBE008763B0 /* MovieDetailsViewController.swift */; };
 		C82E156E28CFD08600BB186D /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82E156D28CFD08600BB186D /* MovieCell.swift */; };
 		C871349528CA917D00010EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C871349428CA917D00010EAE /* AppDelegate.swift */; };
 		C871349728CA917D00010EAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C871349628CA917D00010EAE /* SceneDelegate.swift */; };
-		C871349928CA917D00010EAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C871349828CA917D00010EAE /* ViewController.swift */; };
+		C871349928CA917D00010EAE /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C871349828CA917D00010EAE /* MoviesViewController.swift */; };
 		C871349C28CA917D00010EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C871349A28CA917D00010EAE /* Main.storyboard */; };
 		C871349E28CA919200010EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C871349D28CA919200010EAE /* Assets.xcassets */; };
 		C87134A128CA919200010EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C871349F28CA919200010EAE /* LaunchScreen.storyboard */; };
@@ -20,6 +21,8 @@
 		C87134B628CA919300010EAE /* flixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87134B528CA919300010EAE /* flixsterUITests.swift */; };
 		C87134B828CA919300010EAE /* flixsterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87134B728CA919300010EAE /* flixsterUITestsLaunchTests.swift */; };
 		C88E17A728D01B1300268AD2 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = C88E17A628D01B1300268AD2 /* AlamofireImage */; };
+		C8D9D7EE28DA7B2300004152 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D9D7ED28DA7B2300004152 /* MovieGridViewController.swift */; };
+		C8D9D7F028DA9C9000004152 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D9D7EF28DA9C9000004152 /* MovieGridCell.swift */; };
 		CF20AA35B459F5BB4762C94D /* Pods_flixsterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6AA84EDA863C0D4BB4E8987 /* Pods_flixsterTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,11 +50,12 @@
 		91792B7310C027AF761D30A2 /* Pods-flixsterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixsterTests.release.xcconfig"; path = "Target Support Files/Pods-flixsterTests/Pods-flixsterTests.release.xcconfig"; sourceTree = "<group>"; };
 		A1EE1CAF3AA7BA9C229AA3DC /* Pods-flixsterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixsterTests.debug.xcconfig"; path = "Target Support Files/Pods-flixsterTests/Pods-flixsterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BADE63A52F4332173E061B78 /* Pods_flixster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8165E8D28D8CBBE008763B0 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		C82E156D28CFD08600BB186D /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		C871349128CA917D00010EAE /* flixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C871349428CA917D00010EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C871349628CA917D00010EAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C871349828CA917D00010EAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C871349828CA917D00010EAE /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		C871349B28CA917D00010EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C871349D28CA919200010EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C87134A028CA919200010EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 		C87134B128CA919300010EAE /* flixsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flixsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87134B528CA919300010EAE /* flixsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixsterUITests.swift; sourceTree = "<group>"; };
 		C87134B728CA919300010EAE /* flixsterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixsterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8D9D7ED28DA7B2300004152 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		C8D9D7EF28DA9C9000004152 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		E6AA84EDA863C0D4BB4E8987 /* Pods_flixsterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixsterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF65DD514653AC84AB7E305B /* Pods-flixster-flixsterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster-flixsterUITests.debug.xcconfig"; path = "Target Support Files/Pods-flixster-flixsterUITests/Pods-flixster-flixsterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD4BD82F66141AFDEA04357C /* Pods_flixster_flixsterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixster_flixsterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,14 +136,17 @@
 		C871349328CA917D00010EAE /* flixster */ = {
 			isa = PBXGroup;
 			children = (
-				C871349428CA917D00010EAE /* AppDelegate.swift */,
 				C871349628CA917D00010EAE /* SceneDelegate.swift */,
-				C871349828CA917D00010EAE /* ViewController.swift */,
-				C82E156D28CFD08600BB186D /* MovieCell.swift */,
+				C871349428CA917D00010EAE /* AppDelegate.swift */,
 				C871349A28CA917D00010EAE /* Main.storyboard */,
 				C871349D28CA919200010EAE /* Assets.xcassets */,
 				C871349F28CA919200010EAE /* LaunchScreen.storyboard */,
 				C87134A228CA919200010EAE /* Info.plist */,
+				C871349828CA917D00010EAE /* MoviesViewController.swift */,
+				C82E156D28CFD08600BB186D /* MovieCell.swift */,
+				C8165E8D28D8CBBE008763B0 /* MovieDetailsViewController.swift */,
+				C8D9D7ED28DA7B2300004152 /* MovieGridViewController.swift */,
+				C8D9D7EF28DA9C9000004152 /* MovieGridCell.swift */,
 			);
 			path = flixster;
 			sourceTree = "<group>";
@@ -169,7 +178,6 @@
 				A1EE1CAF3AA7BA9C229AA3DC /* Pods-flixsterTests.debug.xcconfig */,
 				91792B7310C027AF761D30A2 /* Pods-flixsterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -418,10 +426,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C871349928CA917D00010EAE /* ViewController.swift in Sources */,
+				C8165E8E28D8CBBE008763B0 /* MovieDetailsViewController.swift in Sources */,
+				C871349928CA917D00010EAE /* MoviesViewController.swift in Sources */,
 				C871349528CA917D00010EAE /* AppDelegate.swift in Sources */,
 				C82E156E28CFD08600BB186D /* MovieCell.swift in Sources */,
 				C871349728CA917D00010EAE /* SceneDelegate.swift in Sources */,
+				C8D9D7EE28DA7B2300004152 /* MovieGridViewController.swift in Sources */,
+				C8D9D7F028DA9C9000004152 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,8 +616,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -614,9 +625,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucasjbenda.flixster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -634,8 +648,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -643,9 +657,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucasjbenda.flixster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

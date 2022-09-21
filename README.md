@@ -19,7 +19,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 <img src="http://g.recordit.co/7e8sH2EnTP.gif" width=250><br>
 
 ### Notes
-**Describe any challenges encountered while building the app.**
+**Describe any challenges encountered while building the app. **
 This part of the app was far more difficult. I spent several hours troubleshooting the "This Class is not Key Value Coding-Compliant for the Key" and "Failed to instantiate the default view controller for UIMainStoryboardFile" errors. I tried reconnecting the storyboard to the outlets, but eventually restarted the full second part of the Flix app from scratch. This was a learning moment for me to create a feature branch in my repository to help with debugging, troubleshooting, and fixing my challenges more efficiently and effectively. 
 ---
 
